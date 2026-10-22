@@ -1,5 +1,13 @@
 # cost-tag-validator
 
+![Tests](https://github.com/rahmankhanjohn/cost-tag-validator/actions/workflows/test.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+![Dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
+![Tests: 9](https://img.shields.io/badge/tests-9%20passing-brightgreen.svg)
+![GitHub stars](https://img.shields.io/github/stars/rahmankhanjohn/cost-tag-validator?style=social)
+![Last commit](https://img.shields.io/github/last-commit/rahmankhanjohn/cost-tag-validator)
+
 Check the tagging taxonomy before finance asks you for cost per customer.
 
 A cloud bill tells you what you spent. It does not tell you which customer spent it. That number comes from tags, and tags fail quietly: a key missing here, a value with different capitalisation there, and the monthly report splits into groups nobody can explain.
