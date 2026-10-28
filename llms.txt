@@ -1,0 +1,44 @@
+# cost-tag-validator
+
+Check the tagging taxonomy before finance asks you for cost per customer.
+
+## What it does
+
+Reads Terraform, Helm, and YAML files and checks every tagged resource against a taxonomy:
+- Missing keys (tenant_id, environment, service)
+- Case conflicts (cust_88213 vs CUST_88213)
+- Unrecognized keys
+- Values that do not match expected patterns
+
+## Key files
+
+- cost_tag_validator.py: main CLI tool (argparse)
+- test_cost_tag_validator.py: 9 tests
+
+## CLI usage
+
+    python cost_tag_validator.py [path] [--json] [--report]
+
+## Flags
+
+- path: directory to scan (default: .)
+- --json: machine-readable output
+- --report: one paste-ready summary line
+
+## Exit codes
+
+- 0: no issues found
+- 1: issues found
+
+## Design patterns
+
+- Zero dependencies (stdlib only)
+- Single file (cost_tag_validator.py)
+- MIT license
+- --report mode for paste-ready output
+- Exit code 0/1 for CI integration
+
+## Related
+
+- Article 20: "Cost Per Customer: The Number Your Bill Never Shows"
+- XERJ Corpus Hub: not yet selected
