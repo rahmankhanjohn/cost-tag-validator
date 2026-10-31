@@ -2,6 +2,7 @@
 
 ![Tests](https://github.com/rahmankhanjohn/cost-tag-validator/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
 ![Tests: 9](https://img.shields.io/badge/tests-9%20passing-brightgreen.svg)
@@ -26,6 +27,10 @@ This tool reads Terraform, Helm and YAML files and checks every tagged resource 
 | `tenancy` | `shared` or `dedicated` | the pivot: dedicated attributes directly, shared needs a split method |
 
 Five keys are mandatory. `tenancy` decides whether the resource attributes directly or lands in the shared bucket, so the tool flags it when it is missing.
+
+## Recognition
+
+Indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/rahmankhanjohn) - the open reference memory AI coding agents search before they write code.
 
 ## Requirements
 
