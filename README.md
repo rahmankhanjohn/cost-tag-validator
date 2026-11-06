@@ -2,7 +2,7 @@
 
 ![Tests](https://github.com/rahmankhanjohn/cost-tag-validator/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)](https://hub.xerj.org/contributors/rahmankhanjohn)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
 ![Tests: 9](https://img.shields.io/badge/tests-9%20passing-brightgreen.svg)
